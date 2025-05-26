@@ -51,10 +51,14 @@ function hero() {
 hero();
 
 main.addEventListener("click", function (dets) {
+
   var gold = arr[dets.target.id];
-  // gold.isstatus = "Friend";
+
   if (gold.isstatus == "stranger") {
     gold.isstatus = "Friend";
+
+
+
   } else {
     gold.isstatus = "stranger";
   }
