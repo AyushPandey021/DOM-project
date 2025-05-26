@@ -1,4 +1,4 @@
-// click to image ✔️
+// // click to image ✔️
 let button = document.querySelector("#btn2");
 let body = document.querySelector("body");
 
@@ -10,9 +10,8 @@ button.addEventListener("click", function () {
   img.style.height = "300px";
   img.style.position = "absolute";
 
-  img.style.left = (imageCount * 120 + 20) + "px";
+  img.style.left = imageCount * 120 + 20 + "px";
   img.style.top = "100px";
-
 
   let rot = Math.random() * 20 - 10;
   img.style.transform = `rotate(${rot}deg)`;
